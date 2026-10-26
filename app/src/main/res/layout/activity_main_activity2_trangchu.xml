@@ -31,7 +31,6 @@
         android:layout_height="wrap_content"
         app:cardCornerRadius="12dp"
         app:cardElevation="4dp"
-        app:ContentPadding="20dp"
         android:layout_marginBottom="32dp">
 
         <TextView

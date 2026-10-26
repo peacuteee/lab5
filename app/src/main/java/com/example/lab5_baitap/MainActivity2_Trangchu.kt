@@ -25,11 +25,11 @@ class MainActivity2_Trangchu : AppCompatActivity() {
         // Hiển thị thông tin người dùng lên màn hình Trang chủ
         user?.let {
             binding.tvUserInfo.text = """
-                👤 Họ và tên: ${it.fullName}
-                📧 Email: ${it.email}
-                📞 Số điện thoại: ${it.phone}
-                🔑 Tên đăng nhập: ${it.username}
-                🔒 Mật khẩu: ${"*".repeat(it.password.length)}
+                Họ và tên: ${it.fullName}
+                Email: ${it.email}
+                Số điện thoại: ${it.phone}
+                Tên đăng nhập: ${it.username}
+                Mật khẩu: ${"*".repeat(it.password.length)}
             """.trimIndent()
         }
 
